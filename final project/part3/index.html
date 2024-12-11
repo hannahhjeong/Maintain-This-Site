@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.11/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+   
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+     <script src="https://cdn.jsdelivr.net/gh/IDMNYU/p5.js-speech@0.0.3/lib/p5.speech.js"></script>
+    
+    <video autoplay muted loop>
+      <source src="assets/video.mov" type="video/mp4">
+    </video> 
+    <!-- <h2>Part Three: Earth Maintenance</h2> -->
+    <p>
+      <!-- Everyday, containers of the following kinds of refuse will be delivered
+      to the Museum:
+  
+        -the contents of one sanitation truck;
+        -a container of polluted air;
+        -a container of polluted Hudson River;
+        -a container of ravaged land.
+  
+      Once at the exhibition, each container will be serviced:
+    </p>
+    <h1>purified, de-polluted, rehabilitated, recycled, and conserved</h1>
+      
+  <p>
+    by various technical (and / or pseudo-technical) procedures either
+    by myself or scientists.
+
+    These servicing procedures are repeated throughout the duration of the
+    exhibition.
+  </p>
+       -->
+    
+    <a href="/index.html" class="hidden">Again</a>
+
+    <script>
+      // Wait 5 seconds and then remove the 'hidden' class
+      setTimeout(() => {
+        const link = document.querySelector('a.hidden');
+        if (link) {
+          link.classList.remove('hidden');
+        }
+      }, 8000); // 5000 milliseconds = 5 seconds
+    </script>
+  </body>
+</html>
